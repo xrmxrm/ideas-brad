@@ -4,7 +4,8 @@
   "description": "Idea sharing app-s",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Brad Traversy",
   "license": "MIT",

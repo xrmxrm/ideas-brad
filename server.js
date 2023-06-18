@@ -6,7 +6,7 @@ const app = express();
 const ideas = [
     {
         id: 1,
-        text: 'Positive Newsletter -- good news only',
+        text: 'Positive Newsletter -- no bad news',
         tag: 'Technology',
         username: 'TonyStark',
         date: '2023-06-17',
