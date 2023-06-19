@@ -15,6 +15,22 @@ app.get('/', (req, res) => {
   res.json({ message: 'Welcome to the RandomIdeas API' });
 });
 
+app.get('/test', (req, res) => {
+  res.json({ message: 'Welcome to the RandomIdeas API' });
+  console.log(req.params.text, req.params.tag, req.params.username, req);
+});
+
+app.post('/test', (req, res) => {
+  res.json({ message: 'Welcome to the RandomIdeas API' });
+  console.log(req.params.text, req.params.tag, req.params.username, req);
+});
+
+app.put('/test', (req, res) => {
+  res.json({ message: 'Welcome to the RandomIdeas API' });
+  console.log(req.params.text, req.params.tag, req.params.username, req);
+});
+
+
 
 const ideasRouter = require('./routes/ideas');
 const e = require('express');
